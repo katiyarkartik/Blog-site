@@ -1,0 +1,40 @@
+.logo img{
+    margin-top: 27px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }
+    .menu-list{
+        color: #ABAAAA;
+        margin-top: 40px;
+  
+    }
+    .list-li{
+        list-style: none;
+        margin: 40px 0;
+     
+    }
+    .item{
+      display: flex;
+  
+      
+    }
+    .item button{
+        padding: 0 10px;
+        background-color: rgba(0, 0,0, 0);
+        border: none;
+       color: #ABAAAA;
+        font-size: 16px;
+        font-weight: 500;
+    }
+  .item:hover{
+      color: #00adf6;
+  }
+  button:hover{
+      color: #00adf6;
+  }
+  button{
+      text-decoration: none;
+  }
+ 

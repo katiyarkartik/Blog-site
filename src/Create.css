@@ -1,0 +1,49 @@
+.create{
+    
+    padding: 0 20px;
+   padding-bottom: 40px;
+
+}
+::placeholder{
+
+    color:grey;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 0;
+    padding-top: 0;
+   
+}
+.textarea{
+    width: 80%;
+    height: 320px;
+    
+  
+}
+.title-input{
+    width: 50%;
+    height: 40px;
+}
+.img-url{
+  width: 80%;
+  height: 40px;
+}
+.create-form{
+ margin: 10px;
+}
+.create-header{
+    padding: 10px;
+}
+.add-btn{
+    background-color: #00adf6;
+    border-style: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border:1px solid  #00adf6;
+}
+.add-btn:hover{
+    color: #00adf6;
+    background-color: white;
+    font-weight: 700;
+}
+/*rgb(220, 74, 74)*/

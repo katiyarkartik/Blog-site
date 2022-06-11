@@ -1,0 +1,48 @@
+import React from "react";
+import { useState } from "react";
+const Home = () => {
+  const [name, setName] = useState("mario");
+  const [age, setAge] = useState(20);
+
+  const handleClick = () => {
+    if (name == "mario") {
+      setName("luigi");
+    } else if (name == "luigi") {
+      setName("mario");
+    }
+
+    setAge(30);
+  };
+
+  /* const handleClickAgain = (name,e) => {
+    console.log("hello" + name,e.eventPhase);
+  };
+  const wrap = (e) => {
+    handleClickAgain("john",e);
+  };*/
+  return (
+    <div className="home">
+      <h2>Homepage</h2>
+      <p>
+        {name} is {age}
+      </p>
+      <button onClick={handleClick}>Click Me</button>
+      {/*<button onClick={wrap}>Click Me Again</button>*}
+
+      {/*we wrapped the function handleclickagain in 
+      other function wrap so that wrap only call when the button is 
+      pressed and not everytime 
+      
+      other way of having this functionality is 
+      
+      <button onClick={(e)=>{
+          handleClickAgain("john",e)
+          }
+        } 
+      
+      */}
+    </div>
+  );
+};
+
+export default Home;
